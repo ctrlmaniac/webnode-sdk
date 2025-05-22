@@ -1,6 +1,36 @@
 {
   "name": "@ctrlmaniac/webnode-sdk",
   "version": "0.0.0",
+  "description": "Monorepo for all WebNode SDKs, providing a unified collection of tools and libraries for building WebNode applications.",
+  "keywords": [
+    "javascript",
+    "website",
+    "microservices",
+    "framework",
+    "typescript",
+    "web-development",
+    "sdk",
+    "microservice",
+    "web-application",
+    "webapp",
+    "opinionated-framework",
+    "microservices-architecture",
+    "webnode",
+    "webnodes"
+  ],
+  "homepage": "https://github.com/ctrlmaniac/webnode-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrlmaniac/webnode-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ctrlmaniac/webnode-sdk/issues",
+    "email": "davide.dicriscito@gmail.com"
+  },
+  "author": {
+    "name": "Davide Di Criscito",
+    "email": "davide.dicriscito@gmail.com"
+  },
   "license": "MIT",
   "private": true,
   "packageManager": "pnpm@10.11.0",
@@ -12,6 +42,7 @@
     "prepare": "husky",
     "commit": "cz"
   },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
