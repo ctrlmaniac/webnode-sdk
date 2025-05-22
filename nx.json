@@ -20,5 +20,29 @@
         }
       }
     }
-  ]
+  ],
+  "generators": {
+    "@nx/js:library": {
+      "publishable": false,
+      "bundler": "swc",
+      "linter": "eslint",
+      "unitTestRunner": "vitest",
+      "testEnvironment": "node"
+    }
+  },
+  "release": {
+    "projectsRelationship": "independent",
+    "releaseTagPattern": "{projectName}@{version}",
+    "version": {
+      "conventionalCommits": true,
+      "preVersionCommand": "pnpm dlx nx run-many -t build"
+    },
+    "changelog": {
+      "workspaceChangelog": false,
+      "projectChangelogs": {
+        "createRelease": "github",
+        "file": false
+      }
+    }
+  }
 }
