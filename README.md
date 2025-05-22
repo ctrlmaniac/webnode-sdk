@@ -30,7 +30,15 @@ This repository serves as the central hub for all **WebNode SDKs, tools, and cor
 
 ## Packages
 
-This monorepo contains various packages, each serving a specific purpose within the WebNode ecosystem. A brief overview and links to their respective `README.md` files will be provided here as packages are added.
+This monorepo contains various packages, each serving a specific purpose within the WebNode ecosystem. See each package's README for detailed info:
+
+- [@webnode-ecosystem/webnode](sdk/core/README.md): Core runtime and app framework
+- [@webnode-ecosystem/types](sdk/types/README.md): Shared TypeScript types and interfaces
+- [@webnode-ecosystem/schema](sdk/schema/README.md): Zod schemas and validation logic
+- [@webnode-ecosystem/services](sdk/services/README.md): Shared services and utilities
+- [@webnode-ecosystem/lifecycle](sdk/lifecycle/README.md): Internal lifecycle utilities
+- [@webnode-ecosystem/di](sdk/di/README.md): Internal dependency injection container
+- [@webnode-ecosystem/shared](sdk/shared/README.md): Internal helper utilities
 
 ## Contributing
 

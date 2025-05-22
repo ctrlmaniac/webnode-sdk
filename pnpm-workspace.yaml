@@ -1,8 +1,11 @@
-useNodeVersion: 22.14.0
-nodeVersion: 22.14.0
-engineStrict: true
 packages:
-  - packages/*
+  - 'packages/*'
+  - 'sdk/*'
+engineStrict: true
+nodeVersion: '22.14.0'
 onlyBuiltDependencies:
   - '@swc/core'
-  - nx
+  - 'core-js'
+  - 'esbuild'
+  - 'nx'
+useNodeVersion: '22.14.0'

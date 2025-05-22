@@ -1,0 +1,45 @@
+{
+  "name": "@webnode-ecosystem/shared",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "development": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@swc/helpers": "~0.5.11"
+  },
+  "devDependencies": {},
+  "nx": {
+    "tags": [
+      "scope:internal",
+      "type:private"
+    ],
+    "sourceRoot": "sdk/shared/src",
+    "targets": {
+      "build": {
+        "executor": "@nx/js:swc",
+        "outputs": [
+          "{options.outputPath}"
+        ],
+        "options": {
+          "outputPath": "sdk/shared/dist",
+          "main": "sdk/shared/src/index.ts",
+          "tsConfig": "sdk/shared/tsconfig.lib.json",
+          "skipTypeCheck": true,
+          "stripLeadingPaths": true
+        }
+      }
+    },
+    "name": "@webnode-ecosystem/shared"
+  }
+}

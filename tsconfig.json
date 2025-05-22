@@ -2,5 +2,27 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./sdk/lifecycle"
+    },
+    {
+      "path": "./sdk/services"
+    },
+    {
+      "path": "./sdk/schema"
+    },
+    {
+      "path": "./sdk/shared"
+    },
+    {
+      "path": "./sdk/types"
+    },
+    {
+      "path": "./sdk/core"
+    },
+    {
+      "path": "./sdk/di"
+    }
+  ]
 }
