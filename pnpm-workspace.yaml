@@ -1,6 +1,7 @@
 packages:
   - 'packages/*'
   - 'sdk/*'
+  - 'tools/*'
 engineStrict: true
 nodeVersion: '22.14.0'
 onlyBuiltDependencies:

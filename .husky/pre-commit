@@ -1,5 +1,3 @@
 pnpm exec nx sync
 
 git add .
-
-pnpm dlx lint-staged
