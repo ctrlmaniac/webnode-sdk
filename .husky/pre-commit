@@ -1,4 +1,3 @@
-#!/bin/sh
 pnpm exec nx sync
 
 git add .
