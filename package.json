@@ -18,19 +18,16 @@
     "webnode",
     "webnodes"
   ],
-  "homepage": "https://github.com/ctrlmaniac/webnode-sdk#readme",
+  "homepage": "https://github.com/webnode-ecosystem/sdk#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ctrlmaniac/webnode-sdk.git"
+    "url": "git+https://github.com/webnode-ecosystem/sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/ctrlmaniac/webnode-sdk/issues",
+    "url": "https://github.com/webnode-ecosystem/sdk/issues",
     "email": "davide.dicriscito@gmail.com"
   },
-  "author": {
-    "name": "Davide Di Criscito",
-    "email": "davide.dicriscito@gmail.com"
-  },
+  "author": "Davide Di Criscito <davide.dicriscito@gmail.com>",
   "license": "MIT",
   "private": true,
   "packageManager": "pnpm@10.11.0",

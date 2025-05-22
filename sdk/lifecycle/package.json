@@ -1,5 +1,5 @@
 {
-  "name": "@webnode-ecosystem/internal-lifecycle",
+  "name": "@webnode-ecosystem/lifecycle",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -21,8 +21,9 @@
   "devDependencies": {},
   "nx": {
     "tags": [
-      "scope:internal",
-      "type:private"
+      "access:private",
+      "domain:sdk",
+      "type:state-management"
     ],
     "sourceRoot": "sdk/lifecycle/src",
     "targets": {

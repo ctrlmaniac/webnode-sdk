@@ -23,8 +23,9 @@
   },
   "nx": {
     "tags": [
-      "scope:webnode",
-      "type:publishable"
+      "access:public",
+      "domain:sdk",
+      "type:foundation"
     ],
     "sourceRoot": "sdk/core/src",
     "targets": {

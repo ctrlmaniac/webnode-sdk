@@ -8,7 +8,7 @@ Miscellaneous internal utility functions and helpers.
 
 ## Usage
 
-Intended for internal use only within the `webnode-sdk` monorepo.
+Intended for internal use only within the `sdk` monorepo.
 
 ## Building
 

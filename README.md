@@ -1,18 +1,18 @@
-# webnode-sdk
+# sdk
 
-## Welcome to the `webnode-sdk` Monorepo!
+## Welcome to the `sdk` Monorepo!
 
-This repository serves as the central hub for all **WebNode SDKs, tools, and core libraries**, offering an **opinionated, framework-like approach** to building and deploying **websites as microservices**. Designed for developers who value consistency, scalability, and streamlined development, `webnode-sdk` provides everything you need to create robust and highly composable web applications.
+This repository serves as the central hub for all **WebNode SDKs, tools, and core libraries**, offering an **opinionated, framework-like approach** to building and deploying **websites as microservices**. Designed for developers who value consistency, scalability, and streamlined development, `sdk` provides everything you need to create robust and highly composable web applications.
 
-## What is `webnode-sdk`?
+## What is `sdk`?
 
-`webnode-sdk` is more than just a collection of libraries; it's a **comprehensive ecosystem** built on the principles of:
+`sdk` is more than just a collection of libraries; it's a **comprehensive ecosystem** built on the principles of:
 
 - **Microservices Architecture:** Develop independent, deployable web services that can be composed to form larger applications. This promotes modularity, team autonomy, and easier scaling.
 
 - **Opinionated Development:** We provide a clear structure and set of best practices to guide your development process, reducing decision fatigue and ensuring consistency across your projects.
 
-- **Framework-like Experience:** While not a traditional monolithic framework, `webnode-sdk` offers cohesive patterns and shared tooling that give you the benefits of a framework – rapid development, common conventions, and integrated solutions – within a microservices context.
+- **Framework-like Experience:** While not a traditional monolithic framework, `sdk` offers cohesive patterns and shared tooling that give you the benefits of a framework – rapid development, common conventions, and integrated solutions – within a microservices context.
 
 - **Unified Monorepo:** By centralizing all related code, we streamline dependency management, facilitate shared utilities, and enable seamless cross-package development.
 
@@ -46,6 +46,6 @@ We welcome contributions from the community! If you're interested in helping us 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
 
-Ready to revolutionize your web development workflow with a microservices-first approach? Dive into the `webnode-sdk`!
+Ready to revolutionize your web development workflow with a microservices-first approach? Dive into the `sdk`!

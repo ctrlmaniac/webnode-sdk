@@ -9,7 +9,7 @@ Internal dependency injection container and helpers for WebNode services.
 
 ## Usage
 
-Intended for internal use only within the `webnode-sdk` monorepo.
+Intended for internal use only within the `sdk` monorepo.
 
 ## Building
 
