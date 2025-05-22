@@ -1,18 +1,36 @@
 {
-  "name": "@webnode-sdk/source",
+  "name": "@ctrlmaniac/webnode-sdk",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
   "private": true,
-  "dependencies": {},
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "node": "^22.14.0",
+    "pnpm": "^10.11.0"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "commit": "cz"
+  },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/config-pnpm-scopes": "^19.8.1",
     "@nx/js": "21.1.0",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.0.0",
     "nx": "21.1.0",
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",
     "typescript": "~5.7.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

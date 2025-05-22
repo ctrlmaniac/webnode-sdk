@@ -1,3 +1,12 @@
 {
-  "recommendations": ["nrwl.angular-console", "esbenp.prettier-vscode"]
+  "recommendations": [
+    "nrwl.angular-console",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "dotenv.dotenvx-vscode",
+    "eliostruyf.vscode-typescript-exportallmodules",
+    "yzhang.markdown-all-in-one",
+    "crystal-spider.jsdoc-generator"
+  ]
 }
