@@ -20,6 +20,7 @@
   },
   "devDependencies": {},
   "nx": {
+    "projectType": "library",
     "tags": [
       "access:private",
       "domain:sdk",

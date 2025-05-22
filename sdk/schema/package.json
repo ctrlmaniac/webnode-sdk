@@ -15,13 +15,16 @@
     }
   },
   "dependencies": {
-    "@swc/helpers": "~0.5.11"
+    "@swc/helpers": "~0.5.11",
+    "zod": "^3.25.20",
+    "@webnode-ecosystem/shared": "workspace:^"
   },
   "devDependencies": {},
   "publishConfig": {
     "access": "public"
   },
   "nx": {
+    "projectType": "library",
     "tags": [
       "access:public",
       "domain:sdk",

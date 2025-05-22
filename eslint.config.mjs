@@ -21,12 +21,12 @@ export default [
           allow: ['^.*/eslint(\\.base)?\\.config\\.[cm]?js$'],
           depConstraints: [
             {
-              sourceTag: 'access:public',
-              onlyDependOnLibsWithTags: ['access:public', 'access:private'],
-            },
-            {
               sourceTag: 'access:private',
               onlyDependOnLibsWithTags: ['access:private'],
+            },
+            {
+              sourceTag: 'access:public',
+              onlyDependOnLibsWithTags: ['access:private', 'access:public'],
             },
           ],
         },

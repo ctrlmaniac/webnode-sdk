@@ -22,6 +22,7 @@
     "access": "public"
   },
   "nx": {
+    "projectType": "library",
     "tags": [
       "access:public",
       "domain:sdk",
