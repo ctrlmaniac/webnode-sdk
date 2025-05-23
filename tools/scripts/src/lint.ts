@@ -1,4 +1,4 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env node
 
 import { execa } from 'execa';
 import { commitIfModified } from './lib/git-utils.ts';
@@ -24,7 +24,7 @@ export async function main(): Promise<void> {
 }
 
 // This block ensures that the 'main' function is called when the script is executed directly.
-if (require.main === module) {
+if (import.meta.url === process.argv[1]) {
   main().catch((err) => {
     console.error('❌ Lint failed:', err);
     process.exit(1);
