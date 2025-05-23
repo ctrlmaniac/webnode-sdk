@@ -10,13 +10,7 @@
       "path": "./sdk/services"
     },
     {
-      "path": "./sdk/schema"
-    },
-    {
       "path": "./sdk/shared"
-    },
-    {
-      "path": "./sdk/types"
     },
     {
       "path": "./sdk/core"
