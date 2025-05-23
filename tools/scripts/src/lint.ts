@@ -24,7 +24,13 @@ export async function main(): Promise<void> {
 }
 
 // This block ensures that the 'main' function is called when the script is executed directly.
-if (import.meta.url === process.argv[1]) {
+// It combines checks for tsx (direct/pnpm exec/pnpm dlx) and plain Node.js execution of transpiled JS.
+const isMainModule =
+  (typeof import.meta.main !== 'undefined' && import.meta.main) || // For tsx (direct, pnpm exec, pnpm dlx)
+  import.meta.url === new URL(process.argv[1], import.meta.url).href; // For plain Node.js of transpiled JS
+
+// This block ensures that the 'main' function is called when the script is executed directly.
+if (isMainModule) {
   main().catch((err) => {
     console.error('❌ Lint failed:', err);
     process.exit(1);
