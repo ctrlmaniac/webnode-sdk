@@ -1,6 +1,6 @@
 import { BASE_DOMAIN_REGEXP } from '@webnode-ecosystem/shared';
-import { z } from 'zod';
-import { NodeEnvSchema } from './node-env.ts';
+import { z } from 'zod/v4';
+import { nodeEnvSchema } from './node-env.ts';
 
 export const processEnvSchema = z.object({
   BASE_DOMAIN: z.string().regex(BASE_DOMAIN_REGEXP, 'BASE_DOMAIN is not valid'),
@@ -16,5 +16,7 @@ export const processEnvSchema = z.object({
     .transform((val) => val === 'true')
     .optional(),
 
-  NODE_ENV: NodeEnvSchema.optional(),
+  NODE_ENV: nodeEnvSchema.optional(),
 });
+
+export type ProcessEnv = z.infer<typeof processEnvSchema>
