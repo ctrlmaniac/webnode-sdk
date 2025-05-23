@@ -1,0 +1,2 @@
+pnpm dlx tsx tools/scripts/src/lint.ts
+pnpm dlx tsx tools/scripts/src/format.ts

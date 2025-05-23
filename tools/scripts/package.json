@@ -1,0 +1,47 @@
+{
+  "name": "scripts",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "development": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@swc/helpers": "~0.5.11",
+    "execa": "^9.5.3",
+    "simple-git": "^3.27.0"
+  },
+  "nx": {
+    "projectType": "library",
+    "tags": [
+      "access:private",
+      "domain:tools",
+      "type:automation"
+    ],
+    "sourceRoot": "tools/scripts/src",
+    "targets": {
+      "build": {
+        "executor": "@nx/js:swc",
+        "outputs": [
+          "{options.outputPath}"
+        ],
+        "options": {
+          "outputPath": "tools/scripts/dist",
+          "main": "tools/scripts/src/index.ts",
+          "tsConfig": "tools/scripts/tsconfig.lib.json",
+          "skipTypeCheck": true,
+          "stripLeadingPaths": true
+        }
+      }
+    }
+  }
+}

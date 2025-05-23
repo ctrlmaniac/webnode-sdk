@@ -1,5 +1,17 @@
 {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "prettier.prettierPath": "./node_modules/prettier",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "prettier.enable": false,
+
   "nxConsole.generateAiAgentRules": true,
+
   "exportall.config.exportFileExtension": "ts",
   "exportall.config.exportFullPath": true
 }

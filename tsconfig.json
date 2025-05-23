@@ -25,7 +25,10 @@
       "path": "./sdk/di"
     },
     {
-      "path": "./tools/cli"
+      "path": "./tools/scripts"
+    },
+    {
+      "path": "./sdk/definitions"
     }
   ]
 }

@@ -7,7 +7,6 @@
     "dotenv.dotenvx-vscode",
     "eliostruyf.vscode-typescript-exportallmodules",
     "yzhang.markdown-all-in-one",
-    "crystal-spider.jsdoc-generator",
     "linbudu.pnpm-vscode-helper"
   ]
 }
